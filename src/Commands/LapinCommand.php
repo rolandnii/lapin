@@ -14,9 +14,9 @@ class LapinCommand extends Command
     {
         $dh = opendir(app_path());
 
-        if($dh) {
+        if ($dh) {
 
-            while(($file = readdir($dh)) !== false) {
+            while (($file = readdir($dh)) !== false) {
                 $this->comment($file);
             }
         }

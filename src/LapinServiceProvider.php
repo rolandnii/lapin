@@ -2,9 +2,9 @@
 
 namespace RolandNii\Lapin;
 
+use RolandNii\Lapin\Commands\LapinCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use RolandNii\Lapin\Commands\LapinCommand;
 
 class LapinServiceProvider extends PackageServiceProvider
 {
